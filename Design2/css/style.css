@@ -1,0 +1,9 @@
+  .block {
+    position: relative;
+  }
+  
+  .mask {
+    overflow: hidden;
+    width: 4300px;
+    height: 580px;
+  }
