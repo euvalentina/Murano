@@ -8,7 +8,17 @@
     height: 580px;
   }
 
-  #left{
-  	color: #ff0000;
-  	
-  }
+
+#right{
+	width:auto;
+	height: auto;
+	background-color: #1E90FF;
+	border-radius: 10px;
+}
+
+#left{
+	width:auto;
+	height:auto;
+	background-color: #1E90FF;
+	border-radius: 10px;
+}
