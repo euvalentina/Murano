@@ -3,42 +3,43 @@
 
 <title></title>
   
-<link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script>
   	var position = 0;
 
-$("#right").click(function() {
-  console.log(position);
-  if (position > 0) {
-    position -= 300;
-    $(".block").animate({
-      "left": "+=300px"
-    }, "slow");
-  }
-});
+	$("#right").click(function() {
+	  console.log(position);
+	  if (position <= 0) {
+	    position += 300;
+	    $(".block").animate({
+	      "left": "-=300px"
+	    }, "slow");
+	  }
+	});
 
-$("#left").click(function() {
-  console.log(position);
-  if (position <= 4500) {
-    position += 300;
-    $(".block").animate({
-      "left": "-=300px"
-    }, "slow");
-  }
-});
+	$("#left").click(function() {
+	  console.log(position);
+	  if (position > 4500) {
+	    position -= 300;
+	    $(".block").animate({
+	      "left": "+=300px"
+	    }, "slow");
+	  }
+	});
   </script>
 </head>
 
 <body>
 
   <button id="left">&laquo;</button>
-  <button id="right">&raquo;</button>
+
   <div class="mask">
-    <img id="mario" src="img/todas.png" class="block" height="580px">
+    <img id="pagina" src="img/todas.png" class="block" height="580px">
   </div>
 
 
+  <button id="right">&raquo;</button>
 
 </body>
 </html>
