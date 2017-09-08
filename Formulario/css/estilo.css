@@ -15,6 +15,12 @@ body {
 
 }
 
+
+aside {
+  
+  display: block;
+}
+
 .row{
   margin: 1px;
 }
@@ -50,13 +56,13 @@ form{
 
 #inputVermelho{
   border: 0;
-  border-bottom: 3px solid red; 
+  border-bottom: 3px solid red;
   background-color: transparent;
 }
 
 #inputVerde{
   border: 0;
-  border-bottom: 3px solid #008B00; 
+  border-bottom: 3px solid #008B00;
   background-color: transparent;
 }
 
