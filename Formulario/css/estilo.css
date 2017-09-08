@@ -1,0 +1,67 @@
+/* GLOBAL */
+body {
+  color: #5a5a5a;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar{
+  background-color: #F5AB2C;
+  height: 100px;
+}
+
+#formulario{
+
+}
+
+.row{
+  margin: 1px;
+}
+
+#row2{
+  margin-top: 25px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.col-md-6{
+  margin: 5px;
+  width: 580px;
+  height: 500px;
+  background-color: #fff;
+  border: 2px solid red;;
+}
+
+form{
+  margin:10px;
+}
+
+#inputAmarelo{
+  height: 80px;
+  border: 0;
+  border-bottom: 3px solid #FFB21A;
+  background-color: transparent;
+  font-size: 26px;
+  width: 500px;
+  color: #fff;
+}
+
+
+#inputVermelho{
+  border: 0;
+  border-bottom: 3px solid red; 
+  background-color: transparent;
+}
+
+#inputVerde{
+  border: 0;
+  border-bottom: 3px solid #008B00; 
+  background-color: transparent;
+}
+
+#inputAzul{
+  border: 0;
+  border-bottom: 3px solid blue; 
+  background-color: transparent;
+}
