@@ -17,8 +17,15 @@ body {
 
 
 aside {
-  
+  width: 600px;
+  height: 600px;
   display: block;
+  position: relative;
+  border: 2px solid red;
+}
+
+section{
+  position: relative;
 }
 
 .row{

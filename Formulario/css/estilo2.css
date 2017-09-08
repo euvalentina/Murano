@@ -1,0 +1,40 @@
+body {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.estilo1{
+  width: 360px;
+  height: 32px;
+  padding: 5px;
+  padding-left: 15px;
+  font-family : Roboto;
+  font-weight : bold;
+  font-size : 18px;
+  color: #fff;
+  background-color : #FFB21A;
+}
+
+.estilo2{
+  width: 360px;
+  height: 270px;
+  font-family : Roboto;
+  font-weight : bold;
+  font-size : 36px;
+  color: #fff;
+  background-color : #F1F3EF;
+  border: 1px solid red;
+}
+
+.estilo3{
+  width: 360px;
+  height: 50px;
+  padding:5px;
+  padding-left: 15px;
+  font-family : Roboto;
+  font-weight : bold;
+  font-size : 17px;
+  color: #fff;
+  background-color : #FC7B26;
+}
